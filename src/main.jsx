@@ -1,11 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
-//Define an App component
-// eslint-disable-next-line react-refresh/only-export-components
-const App = () => {
-  return <h1>React is fun!</h1>;
-};
+import App from "./App.jsx"; // Import the App component
 
 //Create the root element
 const root = ReactDOM.createRoot(document.getElementById("root"));
