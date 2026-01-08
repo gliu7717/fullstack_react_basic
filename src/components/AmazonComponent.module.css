@@ -1,0 +1,16 @@
+.container {
+  color: #FF9900; /* Amazon Orange */
+  font-family: 'Verdana, sans-serif';
+  text-align: center;
+  margin: 20px;
+}
+
+.header {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.paragraph {
+  color: #146EB4; /* Amazon Blue */
+  font-size: 1.2rem;
+}
