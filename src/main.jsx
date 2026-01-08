@@ -1,10 +1,18 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
+//Define an App component
+// eslint-disable-next-line react-refresh/only-export-components
+const App = () => {
+  return <h1>React is fun!</h1>;
+};
+
+//Create the root element
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+// Render App into the root element
+root.render(
+  <React.StrictMode>
     <App />
-  </StrictMode>,
-)
+  </React.StrictMode>
+);
